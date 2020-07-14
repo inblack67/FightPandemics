@@ -23,7 +23,6 @@ const TextInput = styled(TextArea)`
     font-weight: 450;
   }
 `;
-
 const First = ({
   onChangeTitle,
   onChangeDescription,
