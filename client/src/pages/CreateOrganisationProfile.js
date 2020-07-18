@@ -147,6 +147,11 @@ const CreateOrgProfile = (props) => {
             type: CREATE_Organisation_ERROR,
             error: `Creating organisation failed, reason: ${message}`,
           });
+          setError(
+            "location",
+            "required",
+            "Please select an address from the drop-down",
+          );
         }
       } else {
         return createOrganisationFormDispatch({
